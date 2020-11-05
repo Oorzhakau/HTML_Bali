@@ -36,3 +36,83 @@ ul {
   text-align: center;
   font-family: 'Lora', serif;
 }
+
+/* start header */
+.header {
+  height: 100vh;
+  background-repeat: no-repeat; /* чтобы не повторялся фон */
+  background-size: cover; /*адоптивная картинка*/
+  background-position: center;
+}
+.header-top {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo a {
+  font-family: "Caveat", cursive;
+  font-size: 52px;
+  line-height: 66px;
+}
+.menu__list {
+  display: flex;
+}
+.menu__list li + li {
+  padding-left: 150px;
+}
+.menu__list a {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 27px;
+  transition: all 0.5s;
+}
+.menu_list a:hover{
+  color:rgb(13, 196, 13);
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+.header__content-title {
+  max-width: 930px;
+  width:100%;
+  margin-bottom: 151px;
+}
+.header__content-btn {
+  background-color: #fff;
+  color: #000;
+  padding: 46px 152px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.5s; 
+}
+.header__content-btn:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.header__content-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 166px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.header__content-icon {
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+/* end header */
