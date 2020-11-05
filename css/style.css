@@ -1,0 +1,38 @@
+/* global styles */
+html {
+  box-sizing: border-box;
+}
+*, 
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  background-color: #000;
+  color:#fff;
+  overflow-x: hidden; /*чтобы не было горизонтального скрола*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+a {
+  color: #fff;
+  text-decoration: none; /*без подчеркивания*/
+}
+ul {
+  list-style: none; /*убираем маркеры*/
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1630px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-size: 96px;
+  line-height: 123px;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
