@@ -67,7 +67,7 @@ ul {
   line-height: 27px;
   transition: all 0.5s;
 }
-.menu_list a:hover{
+.menu__list a:hover{
   color:rgb(13, 196, 13);
 }
 .header__content {
