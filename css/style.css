@@ -294,8 +294,6 @@ ul {
     background-color: #fff;
 }
 
-.program-slider__item {}
-
 .program-slider__item-content {
     display: flex;
     justify-content: space-between;
@@ -368,8 +366,6 @@ ul {
     cursor: pointer;
     text-decoration: underline;
 }
-
-.program-slider__item-images {}
 
 .program-dots {
     list-style: none;
