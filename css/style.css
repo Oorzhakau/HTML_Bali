@@ -271,3 +271,157 @@ ul {
 
 
 /* end about */
+
+
+/* start program */
+
+.program {
+    padding-bottom: 431px;
+}
+
+.program__title {
+    margin-bottom: 128px;
+    position: relative;
+}
+
+.program__title::before {
+    content: "";
+    position: absolute;
+    top: -94px;
+    right: 85%;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.program-slider__item {}
+
+.program-slider__item-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.program-slider__item-info {
+    max-width: 752px;
+    padding-top: 120px;
+}
+
+.program-slider__day {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 117px;
+}
+
+.program-slider__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 94px;
+}
+
+.program-slider__description {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 68px;
+}
+
+.program-slider__btn {
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    cursor: pointer;
+    padding: 6px 10px 5px 81px;
+    margin: 0px 0px 46px 108px;
+    position: relative;
+}
+
+.program-slider__btn+.program-slider__btn {
+    margin: 29px;
+}
+
+.program-slider__btn .program-slider-btn-prev::before,
+.program-slider__btn .program-slider-btn-next::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    width: 32px;
+    height: 9px;
+    transform: translateY(-50%);
+}
+
+.program-slider__btn .program-slider-btn-prev::before {
+    background-image: url(../images/arrow-left.svg);
+}
+
+.program-slider__btn .program-slider-btn-next::before {
+    background-image: url(../images/arrow-right.svg);
+}
+
+.program-slider__link {
+    font-size: 24px;
+    line-height: 38px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.program-slider__item-images {}
+
+.program-dots {
+    list-style: none;
+    position: absolute;
+    right: 180px;
+    bottom: 200px;
+    display: flex;
+}
+
+.program-dots li {
+    margin: 0px 9px;
+}
+
+.program-dots button {
+    border-radius: 50%;
+    background-color: #9EA09E;
+    border: none;
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    outline: none;
+    /* чтоб не выделялись */
+    opacity: 1;
+}
+
+.program-dots .slick-active button {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+}
+
+.program-slider .slick-prev,
+.program-slider .slick-next {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.1;
+    font-size: 0;
+    background-color: #ccc;
+    padding: 24px 88px;
+    cursor: pointer;
+}
+
+.program-slider .slick-prev {
+    bottom: 83px;
+    left: 109px;
+}
+
+.program-slider .slick-next {
+    bottom: 83px;
+    left: 320px;
+}
+
+
+/* end program */
