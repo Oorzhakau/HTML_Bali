@@ -12,7 +12,8 @@
         padding: 140px 0px;
     }
     .about__title:after,
-    .program_title::before {
+    .program_title::before,
+    .bali__subtitle::before {
         display: none;
     }
     .about__items {
@@ -27,11 +28,27 @@
     .tour__content {
         margin-bottom: 100px;
     }
+    .bali__subtitle,
+    .bali__text {
+        padding: 0px 15px;
+    }
 }
 
 @media (max-width:1600px) {
     .about__items {
         margin: 0px;
+    }
+    .tour {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width:1500px) {
+    .bali__content-img img {
+        max-width: 540px;
+    }
+    .bali__content-text--top {
+        margin-bottom: 60px;
     }
 }
 
@@ -76,6 +93,9 @@
     .tour__form-btn {
         margin: 20px auto;
     }
+    .tour__form {
+        margin-bottom: 100px;
+    }
 }
 
 @media (max-width:1200px) {
@@ -88,7 +108,10 @@
     }
     .header__content-title,
     .about__title,
-    .program__title {
+    .program__title,
+    .bali__title,
+    .bali__subtitle,
+    .bali__text {
         margin-bottom: 75px;
     }
     .header__content-btn {
@@ -107,6 +130,37 @@
     .tour__subcription-title {
         font-size: 36px;
         line-height: 54px;
+    }
+    .bali__subtitle,
+    .bali__text {
+        font-size: 36px;
+        line-height: 54px;
+        max-width: 1000px;
+    }
+    .bali__items {
+        flex-wrap: wrap;
+    }
+    .bali__item {
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    .bali__item img {
+        margin-bottom: 20px;
+    }
+    .bali__content {
+        padding-top: 0;
+    }
+    .bali__content,
+    .bali__content-text {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .bali__content-img img,
+    .bali__content-text--top {
+        margin-right: 0;
+        margin-bottom: 50px;
     }
 }
 
@@ -271,6 +325,12 @@
         font-size: 20px;
         line-height: 30px;
     }
+    .bali__subtitle,
+    .bali__text {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width:768px) {
@@ -316,6 +376,22 @@
         font-size: 24px;
         line-height: 36px;
         margin-bottom: 50px;
+    }
+    .bali__subtitle,
+    .bali__text {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .bali__item-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .bali__content-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .bali__wrapper {
+        padding-bottom: 60px;
     }
 }
 
@@ -365,6 +441,11 @@
     .tour__form-btn {
         padding: 20px 60px;
     }
+    .bali__subtitle,
+    .bali__text {
+        font-size: 20px;
+        line-height: 30px;
+    }
 }
 
 @media (max-width:414px) {
@@ -400,7 +481,8 @@
     }
     .about__title,
     .program__title,
-    .tour__title {
+    .tour__title,
+    .bali__title {
         margin-bottom: 40px;
     }
     .program {
@@ -423,6 +505,15 @@
     }
     .tour-buy {
         height: 150px;
+    }
+    .bali__subtitle,
+    .bali__text,
+    .bali__content-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .bali {
+        padding-bottom: 30px;
     }
 }
 
