@@ -14,4 +14,33 @@ $(function() {
             }
         }]
     })
+
+    $(".photo-slider__up").slick({
+        arrows: false,
+        dots: false,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        variableWidth: true,
+        responsive: [{
+            breakpoint: 1501,
+            settings: {
+                variableWidth: false,
+                slidesToShow: 1
+            }
+        }]
+    })
+    $(".photo-slider__down").slick({
+        arrows: false,
+        dots: false,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        variableWidth: true,
+        responsive: [{
+            breakpoint: 1501,
+            settings: {
+                variableWidth: false,
+                slidesToShow: 1
+            }
+        }]
+    })
 })

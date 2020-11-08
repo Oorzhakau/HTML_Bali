@@ -620,7 +620,7 @@ ul {
 .tour__form-btn {
     font-weight: 600;
     font-size: 30px;
-    line-height: 37px;
+    line-height: 34px;
     color: #0c110d;
     padding: 36px 136px;
     border: none;
@@ -632,7 +632,8 @@ ul {
     background-color: #000;
     color: #fff;
     border: 1px solid #fff;
-    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.5);
+    /* border: 1px solid #fff; */
+    /* box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.5); */
 }
 
 
@@ -734,3 +735,357 @@ ul {
 
 
 /* end bali */
+
+
+/* start reviews */
+
+.reviews {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 116px;
+}
+
+.reviews_title {
+    margin-bottom: 248px;
+    position: relative;
+}
+
+.reviews_title::after {
+    content: "";
+    position: absolute;
+    top: -389px;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.reviews_name {
+    font-size: 96px;
+    line-height: 117px;
+    margin-bottom: 83px;
+}
+
+.reviews__content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 362px;
+}
+
+.reviews__content-img img {
+    max-width: 510px;
+    width: 100%;
+}
+
+.reviews__content-description {
+    margin-top: 265px;
+    max-width: 795px;
+    width: 100%;
+    text-align: start;
+}
+
+.reviews__content-text {
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 77px;
+}
+
+.reviews__content-link {
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+
+/* end reviews */
+
+
+/* start photo */
+
+.photo {
+    padding-bottom: 244px;
+}
+
+.photo__title {
+    margin-bottom: 394px;
+}
+
+.title {}
+
+.photo-slider__up {
+    margin-bottom: 63px;
+}
+
+.photo-slider__item--up {
+    margin: 0px 25px;
+}
+
+.photo-slider__down {
+    margin-bottom: 301px;
+}
+
+.photo-slider__item--down {
+    margin: 0px 33px;
+}
+
+.photo-slider__item--up img {
+    max-width: 1264px;
+    width: 100%;
+    height: 710px;
+}
+
+.photo-slider__item--up iframe {
+    width: 1250px;
+    height: 710px;
+}
+
+.photo-slider__item--down img {
+    max-width: 1264px;
+    width: 100%;
+    height: 839px;
+}
+
+.photo-bottom {
+    text-align: center;
+}
+
+.photo-bottom__title {
+    font-size: 36px;
+    line-height: 44px;
+    max-width: 1164px;
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 107px;
+}
+
+.photo-bottom__subtitle {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0px auto;
+    margin-bottom: 59px;
+}
+
+.photo-bottom__icons {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-bottom__icon {
+    margin: 0px 38px;
+    cursor: pointer;
+}
+
+
+/* end photo */
+
+
+/* start go */
+
+.go {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.go__title {
+    margin-bottom: 99px;
+    position: relative;
+}
+
+.go__title::after {
+    content: "";
+    position: absolute;
+    top: -175px;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.go__subtitle {
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 138px;
+}
+
+.go__buttons {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    padding-bottom: 325px;
+}
+
+.go__button {
+    margin: 0 36px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.go__button--left {
+    background-color: #fff;
+    color: #0c110d;
+    padding: 53px 142px;
+}
+
+.go__button--left:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.5);
+}
+
+.go__button--right {
+    background-color: transparent;
+    border: 3px solid #fff;
+    padding: 53px 85px;
+}
+
+.go__button--right:hover {
+    background-color: #000;
+    color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.5);
+}
+
+
+/* end go */
+
+
+/* start footer */
+
+.footer {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 40px 80px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer__logo a {
+    font-family: "Caveat", cursive;
+    font-size: 52px;
+    line-height: 66px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu-list li+li {
+    padding-top: 30px;
+}
+
+.footer__menu-list li {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.footer__menu-list a {
+    color: rgba(255, 255, 255, 0.6);
+    transition: all 0.5s;
+}
+
+.footer__menu-list a:hover {
+    color: rgb(13, 196, 13);
+}
+
+.footer__btn {
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    padding: 0px 85px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.footer__btn:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.5);
+}
+
+.footer__btn a {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.footer__info-tel {
+    margin-top: 45px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__info-email {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__icon {
+    cursor: pointer;
+}
+
+.footer__icon+.footer__icon {
+    padding-top: 30px;
+}
+
+
+/* end footer */
+
+
+/* start animation mouse scroll */
+
+.scroller {
+    border-radius: 50%;
+    background-color: #9ea09f;
+    animation-name: scroll;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
+
+
+/* end animation mouse scroll */
